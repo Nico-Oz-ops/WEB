@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Calcolatrice Elegante</title>
+  <style>
+    body {
+      background: #e9ecef;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .calcolatrice {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      width: 300px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #risultato {
+      margin-top: 20px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 18px;
+      color: #28a745;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="calcolatrice">
+    <h2>Calcolatrice</h2>
+
+    <label for="numero1">Numero 1:</label>
+    <input type="number" id="numero1" placeholder="Inserisci il primo numero">
+
+    <label for="numero2">Numero 2:</label>
+    <input type="number" id="numero2" placeholder="Inserisci il secondo numero">
+
+    <label for="operazione">Operazione:</label>
+    <select id="operazione">
+      <option value="+">Somma</option>
+      <option value="-">Sottrazione</option>
+      <option value="*">Moltiplicazione</option>
+      <option value="/">Divisione</option>
+    </select>
+
+    <button onclick="calcola()">Calcola</button>
+
+    <div id="risultato"></div>
+  </div>
+
+  <script>
+    function calcola() {
+      const num1 = parseFloat(document.getElementById("numero1").value);
+      const num2 = parseFloat(document.getElementById("numero2").value);
+      const operazione = document.getElementById("operazione").value;
+      let risultato;
+
+      if (isNaN(num1) || isNaN(num2)) {
+        risultato = "Inserisci due numeri validi.";
+      } else {
+        switch (operazione) {
+          case "+":
+            risultato = num1 + num2;
+            break;
+          case "-":
+            risultato = num1 - num2;
+            break;
+          case "*":
+            risultato = num1 * num2;
+            break;
+          case "/":
+            if (num2 === 0) {
+              risultato = "Errore: divisione per zero.";
+            } else {
+              risultato = num1 / num2;
+            }
+            break;
+          default:
+            risultato = "Operazione non valida.";
+        }
+      }
+
+      document.getElementById("risultato").textContent = "Risultato: " + risultato;
+    }
+  </script>
+
+</body>
+</html>

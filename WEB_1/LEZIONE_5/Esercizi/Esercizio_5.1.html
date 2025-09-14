@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="uguaglianza1"></div>
+    <div id="uguaglianza2"></div>
+    <div id="uguaglianza3"></div>
+    <div id="uguaglianza4"></div>
+    <div id="uguaglianza5"></div>
+    <script>
+        function uguaglianza(a, b){
+            return a === b
+        }
+        
+        console.log(uguaglianza(4, 5));
+        document.getElementById("uguaglianza1").innerHTML = "4 è uguale a 5? " + uguaglianza(4, 5)
+        console.log(uguaglianza(8, 8));
+        document.getElementById("uguaglianza2").innerHTML = "8 è uguale a 8? " + uguaglianza(8, 8)
+        console.log(uguaglianza("abc", "abc"));
+        document.getElementById("uguaglianza3").innerHTML = "'abc' è uguale a 'abc? " + uguaglianza("abc", "abc")
+        console.log(uguaglianza(false, 0));
+        document.getElementById("uguaglianza4").innerHTML = "'false' è uguale a 0? " + uguaglianza(false, 0)
+        console.log(uguaglianza(false, true));
+        document.getElementById("uguaglianza5").innerHTML = "'false' è uguale a 'true'? " + uguaglianza(false, true)
+    </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="valoreX"></p>
+    <p id="valoreY"></p>
+    <p id="valoreZ"></p>
+    <script>
+        let x = 10;
+        document.getElementById("valoreX").innerHTML = "Valore X: " + x;
+        console.log("Tipo di valore:", typeof(x));
+        
+        let y = x
+        document.getElementById("valoreY").innerHTML = "Valore Y: " + y;
+        console.log("Tipo di valore:", typeof(y));
+
+        let z = "Mario"
+        document.getElementById("valoreZ").innerHTML = "Valore Z: " + z;
+        console.log("Tipo di valore:", typeof(z));
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="giornisettimana"></p>
+    <p id="listagiorni"></p>
+    <script>
+        let giorniSettimana = 'Lunedì,Martedì,Mercoledì,Giovedì,Venerdì,Sabato,Domenica';
+        document.getElementById("giornisettimana").innerHTML = "Giorni della settimana: " + giorniSettimana;
+        console.log(giorniSettimana);
+
+        // sostituire le virgole con "a capo(\n)" - console
+        let giorniaCapo = giorniSettimana.replace(/,/g, '\n');
+        document.getElementById("listagiorni").innerHTML = "Giorni della Settimana:" + giorniaCapo;
+        console.log(giorniaCapo);
+    </script>
+</body>
+</html>

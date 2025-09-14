@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benvenuti nel nostro sito</title>
+</head>
+<body>
+    <div style="width: 100%; margin: 0 auto;">
+        <h1>Benvenuti nel Nostro Sito!</h1><br>
+        <p align="justify">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien 
+            vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. 
+            Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec 
+            metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. 
+            Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia 
+            nostra inceptos himenaeos.
+        </p>
+        <h3>Crea un Nuovo Account</h3>
+        <form method="post" action="esegui.php">
+            <input type="text" name="nome" placeholder="Nome">
+            <input type="text" name="cognome" placeholder="Cognome"><br>
+
+            <input type="text" name="email" placeholder="Il tuo indirizzo e-mail"><br>
+            <input type="text" name="nuova password" placeholder="Nuova Password"><br>
+
+            Uomo<input type="radio" name="sesso" value="M">
+            Donna<input type="radio" name="sesso" value="F">
+            <br><br>
+            
+            Come hai conosciuto il sito?<select name="consigliato da amici">
+            <option>Consigliato da Amici</option>
+            </select>
+            <h4>Parlaci di te!</h4>
+            <textarea name="commento" rows="5" cols="30"></textarea>
+            <br><br>
+            <input type="checkbox" name="condizione uso">Accetto le <a href="#">Condizione d'Uso</a>
+            <br><br>
+
+            <input type="submit" name="crea account" value="Crea Account">
+        </form>
+    </div>
+</body>
+</html>

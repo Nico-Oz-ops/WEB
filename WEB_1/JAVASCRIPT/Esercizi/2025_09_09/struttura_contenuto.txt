@@ -1,0 +1,35 @@
+Martedì 9 settembre 2025
+
+Parte 1 – Esercizi combinati JS + async/await
+
+    * Array di oggetti (studenti, prodotti, corsi…).
+
+    * Funzioni di utilità (map, filter, reduce).
+
+    * Gestione asincrona con setTimeout o Promise simulate.
+
+    * Obiettivo: integrare array, oggetti, funzioni e async/await.
+
+
+Parte 2 – Mini-progetto JS semplice
+
+    * Scegliamo tra:
+
+        * Todo-list in console: aggiungi, elimina, filtra attività.
+
+        * Media player simulato in console: aggiungi brani, riproduci, calcola durata totale.
+
+        * Obiettivo: mettere in pratica tutto ciò che abbiamo imparato finora in un progetto unico e coerente.
+
+
+Parte 3 – Revisione JS
+
+    * Ripasso di concetti chiave:
+
+    * Callback, arrow functions, spread operator, destructuring.
+
+    * Console: log, warn, error.
+
+    * Operatori logici e aritmetici.
+
+    * Strutture di controllo: if, for, for...of, forEach, while, switch.

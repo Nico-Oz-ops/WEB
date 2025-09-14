@@ -1,0 +1,25 @@
+Contenuto della giornata
+
+1. Promise e async/await (base)
+
+    * Capire cos’è una Promise.
+
+    * Usare .then() e .catch().
+
+    * Riscrivere lo stesso codice con async/await.
+
+2. Esercizi combinati (oggetti + array + funzioni + async/await)
+
+    * Integrare i concetti che già usi (array di oggetti, map, filter, reduce, funzioni di utilità).
+
+    * Aggiungere la gestione asincrona (setTimeout, Promise simulate, ecc.).
+
+3. Revisione concetti JS
+
+    * Ripassare velocemente:
+
+        * console.log e differenza tra log, warn, error.
+
+        * Operatori logici e aritmetici.
+
+        * Strutture di controllo (if, for, for…of, forEach, while, switch).

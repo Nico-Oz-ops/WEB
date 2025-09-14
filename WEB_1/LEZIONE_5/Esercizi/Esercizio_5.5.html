@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stampare asterischi 10-30</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+        .riga {
+      white-space: pre; /* conserva gli spazi e i ritorni a capo */
+        }   
+    </style>
+</head>
+<body>
+    <h2>Righe di asterischi da 10 a 30</h2>
+    <div id="sequenza"></div>
+    <script>
+        function creasequenza() {
+            const container = document.getElementById("sequenza");
+
+            //ciclo da 10 a 30
+            for(let i = 10; i <= 30; i ++) {
+                let riga = "*".repeat(i); // si crea una stringa con "i" asterischi
+                const div = document.createElement("div");
+                div.className = "riga";
+                div.textContent = riga;
+                sequenza.appendChild(div)
+            }
+
+        }
+        creasequenza()
+    </script>
+</body>
+</html>

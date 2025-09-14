@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="valore"></p>
+    <p id="valorecontrollo"></p>
+    <script>
+        // dichiarare variabile stringa
+        let valore = '50';
+
+        // stampare valore e tipo
+        document.getElementById("valore").innerHTML = "Valore: " + valore;
+        console.log("Valore: ", valore);
+        console.log("Tipo: ", typeof valore);
+
+        // funzione globale che verifica se il valore è numerico
+
+        let valore2 = isNaN(valore);
+        document.getElementById("valorecontrollo").innerHTML = "La variabile valore è numerica?: " + valore2;
+        console.log("è numerico?: ", valore2);
+
+        // convertire da stringa a numero
+        valore_numerico = parseInt(valore);
+        
+        console.log("Nuovo valore: ", valore_numerico);
+        console.log("Nuovo tipo di valore: ", typeof valore_numerico);
+    </script>
+</body>
+</html>

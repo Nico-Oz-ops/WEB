@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function range_1_7(num){
+            return num >= 1 && num <= 7;
+        }
+
+        function mostraGiorno(num){
+            if (range_1_7(num)){
+                let giorni = [
+                    "lunedì",
+                    "martedì",
+                    "mercoledì",
+                    "giovedì",
+                    "venerdì",
+                    "sabato",
+                    "domenica",
+                ];
+                alert("Il giorno della settimana è: " + giorni[num - 1])
+            }else{
+                alert("Peccato non posso indovinare il giorno")
+            }
+        }
+        let numeroinserito = parseInt(prompt("Inserire un numero: "))
+        mostraGiorno(numeroinserito)
+    </script>
+</body>
+</html>

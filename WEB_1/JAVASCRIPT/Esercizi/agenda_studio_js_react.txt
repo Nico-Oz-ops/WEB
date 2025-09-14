@@ -1,0 +1,57 @@
+Venerdì 5 settembre 2025
+
+    * Variabili, operatori, strutture di controllo (if, for, while).
+    * Esercizi singoli su logica di base.
+
+Sabato 6 settembre 2025
+
+    * Array e metodi (map, filter, reduce).
+    * Oggetti: creazione, accesso e manipolazione.
+    * Esercizi combinati: array + oggetti + funzioni.
+
+Domenica 7 settembre 2025
+
+    * Funzioni come parametri (callback), arrow functions.
+    * Assegnazione per riferimento vs valore.
+    * Spread operator e destrutturazione.
+    * Esercizi combinati: callback + array + oggetti + operatori.
+
+Lunedì 8 settembre 2025
+
+    * Promise e async/await (esercizi base).
+    * Esercizi combinati: oggetti + array + funzioni + async/await.
+    * Revisione concetti JS: console.log, operatori, strutture di controllo.
+
+Martedì 9 settembre 2025
+
+    * Esercizi combinati JS/async + oggetti + funzioni.
+    * Mini-progetto JS semplice (console: todo-list o media player).
+    * Revisione JS: callback, spread, destructuring.
+
+Mercoledì 10 settembre 2025
+
+    * React: componenti base, JSX, props.
+    * useState, gestione eventi (onClick, onChange).
+    * Liste e rendering condizionale (.map, ternario).
+
+Giovedì 11 settembre 2025
+
+    * React: useEffect (fetch API, timers).
+    * Input controllati e gestione form.
+    * Esercizi combinati React: spread, destructuring, conditional rendering.
+
+Venerdì 12 settembre 2025
+
+    * Mini-progetto React completo (todo-list, media player o form interattivo).
+    * Revisione JS: funzioni, promise, async/await, array, oggetti.
+    * Debug e rifinitura mini-progetto React.
+
+Sabato 13 settembre 2025
+
+    * Mini-progetto React + integrazione JS completo.
+    * Revisione generale concetti chiave JS + React.
+
+Domenica 14 settembre 2025
+
+    * Mini-progetto React + testing funzionalità.
+    * Revisione finale: checklist dei concetti chiave di JS + React.

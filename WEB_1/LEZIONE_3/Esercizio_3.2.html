@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="età_persona"></p>
+    <p id="raggiungere_100"></p>
+    <script>
+        let anno_corrente = 2025;
+        let anno_nascita = 1988;
+
+        let età_persona = anno_corrente - anno_nascita;
+        console.log("Età: ", età_persona);
+        document.getElementById("età_persona").innerHTML="Età della persona: " + età_persona + " anni";
+
+        let raggiungere_100 = 100 - età_persona;
+        console.log("Anni rimanenti per arrivare a 100 anni:", raggiungere_100);
+         document.getElementById("raggiungere_100").innerHTML="Anni rimanenti per arrivare a 100 anni: " + raggiungere_100 + " anni";
+    </script>
+</body>
+</html>

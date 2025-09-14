@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="output"></p>
+    <p id="output2"></p>
+    <script>
+        let input = 12560
+        let cal_ore = parseInt(input / 3600)
+        let cal_min = parseInt((input % 3600) / 60)
+        let cal_sec = input % 60
+
+        console.log("Calcolo delle ore: ", cal_ore);
+        console.log("Calcolo dei minuti: ", cal_min);
+        console.log("Calcolo dei secondi: ", cal_sec);
+
+        document.getElementById("output").innerHTML="Output: " + cal_ore + ":" + cal_min + ":" + cal_sec;
+        document.getElementById("output2").innerHTML="Output: " + cal_ore + " ore, " + cal_min + " min e " + cal_sec + " sec";
+    </script>
+</body>
+</html>

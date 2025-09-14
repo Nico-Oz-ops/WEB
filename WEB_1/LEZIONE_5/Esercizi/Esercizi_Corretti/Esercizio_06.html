@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let calcola = () => {
+            let numero1 = document.getElementById("primonumero").value;
+            let numero2 = document.getElementById("secondonumero").value;
+            let tipooperazione = document.getElementById("tipo").value;
+            let risultato = 0
+
+            if(tipooperazione == '+'){
+                risultato = parseInt(numero1) + parseInt(numero2); 
+            } else if(tipooperazione == '-'){
+                risultato = parseInt(numero1) - parseInt(numero2);
+            } else if(tipooperazione == '*'){
+                risultato = parseInt(numero1) * parseInt(numero2);
+            } else(tipooperazione == '/'){
+                risultato = parseInt(numero1) / parseInt(numero2);
+            }
+
+            console.log(risultato);
+
+        }
+        calcola()
+    </script>
+</head>
+<body>
+    Primo numero <input type="text" id="primonumero"> <br>
+    Secondo numero <input type="text" id="secondonumero"> <br>
+</body>
+</html>

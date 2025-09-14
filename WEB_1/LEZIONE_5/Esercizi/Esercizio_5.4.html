@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piramide di Linee</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        hr {
+            height: 4px;
+            background-color: steelblue;
+            border: none;
+            margin: 10px auto;
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <h2>Piramide di Linee</h2>
+    <div id="container"></div>
+    <script>
+        function creaLinee() {
+            const container = document.getElementById("container");
+
+            // si generano le linee con passo 5% da 0 a 100
+            for (let i = 0; i <= 100; i += 5) {
+                const linea = document.createElement("hr");
+                linea.style.width = i + "%";
+                container.appendChild(linea);
+            }
+        }
+
+        // chiamo la funzione per creare le linee
+        creaLinee()
+    </script>
+</body>
+</html>

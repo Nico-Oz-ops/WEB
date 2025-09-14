@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esempio_tag_form</title>
+</head>
+<body>
+    <form method="post" action="esegui.php">
+        Nome <input type="text" name="nome"><br>
+        Cognome <input type="text" name="cognome"><br><br>
+
+        Paese<br>
+        <select name="paese">
+        <option value="I">Italia</option>
+        <option value="E">Estero</option>
+        </select><br><br>
+
+        Sesso<br>
+        <input type="radio" name="sesso" value="M">M<br>
+        <input type="radio" name="sesso" value="F">F<br><br>
+
+        Hobby<br>
+        <input type="checkbox" name="hobby" value="S">Sport<br>
+        <input type="checkbox" name="hobby" value="L">Lettura<br>
+        <input type="checkbox" name="hobby" value="C">Cinema<br>
+        <input type="checkbox" name="hobby" value="I">Internet<br><br>
+
+        Commento<br>
+        <textarea name="commento" rows="5" cols="30"></textarea>
+        <br><br>
+
+        <!--Submit-->
+        <input type="submit" name="invia" value="Invia i dati">
+    </form>    
+</body>
+</html>

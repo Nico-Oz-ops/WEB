@@ -1,0 +1,92 @@
+Scaletta di studio per JS
+
+Fase 1 – Fondamentali singoli (a blocchi)
+
+1. Variabili e operatori → esercizi base di dichiarazione, calcoli, incrementi.
+
+2. Strutture di controllo (if, for, while) → esercizi logici.
+
+3. Array → creazione, push/pop, metodi (map, filter, reduce).
+
+4. Oggetti → creare e accedere a proprietà, metodi negli oggetti.
+
+5. Funzioni → dichiarazioni, arrow functions, funzioni come parametri (callback).
+
+6. Assegnazione per riferimento vs valore → differenze pratiche.
+
+7. Spread e destrutturazione → applicazioni pratiche.
+
+8. Promise & async/await → simulare operazioni asincrone.
+
+
+Fase 2 – Esercizi combinati
+
+    * Array + oggetti (gestire liste di studenti, prodotti, ecc.).
+
+    * Funzioni + callback (filtri, mappe personalizzate).
+
+    * Async/await + promise (simulare chiamate API).
+
+
+Fase 3 – Mini-progetti JS
+
+    * Mini todo-list in console (array + funzioni).
+
+    * Mini media player (oggetti + funzioni).
+
+    * Simulazione chiamata API con async/await.
+
+------------------------------------------------REACT-----------------------------------------------------------
+
+Fase 4 – React 
+
+    * Componenti base.
+
+    * Props e state.
+
+    * Eventi e rendering condizionale.
+
+    * useEffect e chiamate API.
+
+
+Programma React (base → intermedio)
+
+Fase 1 – Basi dei componenti
+
+    * Cosa sono i componenti e come si scrivono (function component).
+
+    * JSX (integrare HTML e JS).
+
+    * Props (passare valori ai componenti).
+
+Fase 2 – Stato e interazioni
+
+    * useState (gestire variabili reattive).
+
+    * Eventi (onClick, onChange ecc.).
+
+    * Rendering condizionale (if, ternario).
+
+    * Liste e chiavi (.map).
+
+Fase 3 – Effetti collaterali
+
+    * useEffect (gestire fetch API, timers, ecc.).
+
+    * Ciclo di vita del componente (mount, update, unmount).
+
+Fase 4 – Lavorare con form
+
+    * Input controllati (collegare stato a <input>).
+
+    * Submit dei form.
+
+    * Validazione base.
+
+Fase 5 – Strumenti utili
+
+    * Spread operator e destrutturazione in React.
+
+    * Conditional rendering avanzato.
+
+    * Componenti annidati.

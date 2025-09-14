@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="saluto"></div>
+    <div id="saluto2"></div>
+    <script>
+        //esempio con funzione con ritorno
+
+        function salutare(nome){
+            return "ciao " + nome;
+        }
+
+        // //invocazione della funzione per la prima variante
+        let output = salutare("Roberta");
+        document.getElementById("saluto").innerHTML="<i>" + output + "</i>";
+
+        //oppure
+        function salutare(){
+            let nome = prompt("Inserisci il tuo nome: ");
+            return "Welcome " + nome
+        }
+
+        //invocazione della funzione per la seconda variante
+        output = salutare();
+        document.getElementById("saluto2").innerHTML = "<i>" + output + "</i>";
+    </script>
+</body>
+</html>

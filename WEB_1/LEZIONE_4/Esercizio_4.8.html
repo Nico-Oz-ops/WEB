@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="pari"></p>
+    <p id="dispari"></p>
+    <script>
+        var numeri = [10, 12, 9, 65, 36, 78, 45, 66, 69, 71];
+        var num_par = 0;
+        var num_disp = 0;
+
+        for(var i = 1; i <= numeri.length; i++){
+            if(numeri[i] % 2 === 0){
+                num_par += 1
+            } else {
+                num_disp += 1
+            }
+        }
+
+        document.getElementById("pari").innerHTML="Totale numeri pari: " + num_par;
+        document.getElementById("dispari").innerHTML="Totale numeri dispari: " + num_disp;
+
+        console.log("Numeri pari: ", num_par)
+        console.log("Numeri dispari: ", num_disp)
+    </script>
+</body>
+</html>

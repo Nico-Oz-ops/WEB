@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="while"></p>
+    <p id="for"></p>
+    <script>
+        let risultato = "Ciclo While " + "<br>";
+
+        var cont = 0
+        while(cont <= 10){
+            console.log(cont);
+            cont++
+        }
+
+        var cont = 0
+        while(cont <= 10){
+            risultato += cont++ + "<br>"
+        }
+        document.getElementById("while").innerHTML=risultato
+
+
+        risultato2 = "Ciclo For " + "<br>"
+        for(var cont2 = 0; cont2 <= 10; cont2++){
+            console.log(cont2)
+        }
+
+        for(var cont2 = 0; cont2 <= 10; cont2++){
+            risultato2 += cont2 + "<br>"
+        }
+        document.getElementById("for").innerHTML=risultato2
+    </script>
+</body>
+</html>

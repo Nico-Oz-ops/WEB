@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="while"></p>
+    <p id="for"></p>
+    <script>
+        let num = 5;
+        var cont = 1;
+        let risultato = "Ciclo While: " + "<br>";
+        
+        while(cont <= 10){
+            console.log(num + " x " + cont + " = " + num * cont);
+            cont++
+        }
+        
+        var cont = 1
+        while(cont <= 10){
+            risultato += num + " x " + cont + " = " + num * cont + "<br>";
+            cont++
+        }
+        
+        document.getElementById("while").innerHTML=risultato;
+
+        let num2 = 9;
+        let risultato2 = "Ciclo For: " + "<br>";   
+
+        for(let cont2 = 1; cont2 <= 10; cont2++){
+            console.log(num2 + " x " + cont2 + " = " + num2 * cont2)
+        }
+
+        for(let cont2 = 1; cont2 <= 10; cont2++){
+            risultato2 += num2 + " x " + cont2 + " = " + num2 * cont2 + "<br>";
+        }
+     
+        document.getElementById("for").innerHTML=risultato2;
+    </script>
+</body>
+</html>
