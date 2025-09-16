@@ -14,6 +14,10 @@ import MenuRistorante from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_03/MenuRi
 import Termostato from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_04/Termostato";
 import CampoRicerca from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_05/CampoRicerca";
 import MessaggioSegreto from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_06/MessaggioSegreto";
+import AggiornaTitolo from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_07/AggiornaTitolo";
+import GalleriaFoto from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_08/GalleriaFoto";
+import ModuloContatti from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_09/ModuloContatti";
+import BlogApp from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_10/BlogApp";
 
 function App() {
   // let nome = "Roberto";
@@ -87,7 +91,7 @@ function App() {
   //   </div>
   // );
 
-  // Esercizi di React: da zero a piccola App
+  // *** Esercizi di React: da zero a piccola App ***
 
   // Esercizio 01
   // return (
@@ -140,10 +144,39 @@ function App() {
   // );
 
   // Esercizio 06
+  // return (
+  //   <div>
+  //     <h2>Clicca se vuoi conoscere il messaggio segreto</h2>
+  //     <MessaggioSegreto />
+  //   </div>
+  // );
+
+  // Esercizio 07
+  // return (
+  //   <div>
+  //     <h2>Scrivi il tuo nome</h2>
+  //     <AggiornaTitolo />
+  //   </div>
+  // );
+
+  // Esercizio 08
+  // return (
+  //   <div>
+  //     <GalleriaFoto />
+  //   </div>
+  // );
+
+  // Esercizio 09
+  // return (
+  //   <div>
+  //     <ModuloContatti></ModuloContatti>
+  //   </div>
+  // );
+
+  // Esercizio 10
   return (
     <div>
-      <h2>Clicca se vuoi conoscere il messaggio segreto</h2>
-      <MessaggioSegreto />
+      <BlogApp />
     </div>
   );
 }
