@@ -18,6 +18,10 @@ import AggiornaTitolo from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_07/Aggior
 import GalleriaFoto from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_08/GalleriaFoto";
 import ModuloContatti from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_09/ModuloContatti";
 import BlogApp from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_10/BlogApp";
+import CardUtente2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_02/Fatto_in_classe/CardUtente2";
+import MenuRistorante2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_03/Fatto_in_classe/MenuRistorante2";
+import Termostato2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_04/Fatto_in_classe/Termostato2";
+import Menu from "./Esercizi/Da_Zero_a_Piccola_App/Menu";
 
 function App() {
   // let nome = "Roberto";
@@ -174,11 +178,66 @@ function App() {
   // );
 
   // Esercizio 10
-  return (
-    <div>
-      <BlogApp />
-    </div>
-  );
+  // return (
+  //   <div>
+  //     <BlogApp />
+  //   </div>
+  // );
+
+  // Ripasso esercizi fatti in classe
+
+  // Esericizo 02
+  // const persone = [
+  //   {
+  //     nome: "Nico",
+  //     email: "nico.hola@gmai.com",
+  //     imgUrl: "https://placehold.co/100",
+  //   },
+  //   {
+  //     nome: "Rob",
+  //     email: "rob.12@gmai.com",
+  //     imgUrl: "https://placehold.co/100",
+  //   },
+  //   {
+  //     nome: "Jim",
+  //     email: "njim@gmai.com",
+  //     imgUrl: "https://placehold.co/100",
+  //   },
+  // ];
+  // return (
+  //   <>
+  //     <CardUtente2
+  //       nome="Nico"
+  //       email="nico.landa@email.co"
+  //       imgUrl="https://placehold.co/100"
+  //     />
+
+  //     <CardUtente2 {...persone[0]} />
+
+  //     <div className="row">
+  //       {persone.map((p) => {
+  //         return (
+  //           <div className="col">
+  //             <CardUtente2 {...p}></CardUtente2>
+  //           </div>
+  //         );
+  //       })}
+  //     </div>
+  //   </>
+  // );
+
+  // Esercizio 03
+  // return (
+  //   <div>
+  //     <MenuRistorante2></MenuRistorante2>
+  //   </div>
+  // );
+
+  // Esercizio 04
+  // return <Termostato2></Termostato2>;
+
+  // Render condizionale
+  return <Menu></Menu>
 }
 
 export default App;
