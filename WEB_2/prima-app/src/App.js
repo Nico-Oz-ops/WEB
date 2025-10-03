@@ -22,6 +22,7 @@ import CardUtente2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_02/Fatto_in_
 import MenuRistorante2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_03/Fatto_in_classe/MenuRistorante2";
 import Termostato2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_04/Fatto_in_classe/Termostato2";
 import Menu from "./Esercizi/Da_Zero_a_Piccola_App/Menu";
+import MainComponent from "./components/MainComponent";
 
 function App() {
   // let nome = "Roberto";
@@ -237,7 +238,9 @@ function App() {
   // return <Termostato2></Termostato2>;
 
   // Render condizionale
-  return <Menu></Menu>
+  // return <Menu></Menu>
+
+  return <MainComponent></MainComponent>
 }
 
 export default App;
