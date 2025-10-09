@@ -3,26 +3,27 @@ import "./App.css";
 // import Componente1, { Anagrafica, Messaggio } from "./Componente1";
 // import Persona from "./Esercizi/esercizio1";
 // import { persone } from "./dati/dati";
-import Messaggio from "./Esercizi/Esercizi_progressivi/Esercizio_01/Messaggio";
-import Contatore from "./Esercizi/Esercizi_progressivi/Esercizio_02/Contatore";
-import ListaUtenti from "./Esercizi/Esercizi_progressivi/Esercizio_03/ListaUtenti";
-import FormInput from "./Esercizi/Esercizi_progressivi/Esercizio_04/FormInput";
-import ListaDinamica from "./Esercizi/Esercizi_progressivi/Esercizio_05/ListaDinamica";
-import Saluto from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_01/Saluto";
-import CardUtente from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_02/CardUtente";
-import MenuRistorante from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_03/MenuRistorante";
-import Termostato from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_04/Termostato";
-import CampoRicerca from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_05/CampoRicerca";
-import MessaggioSegreto from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_06/MessaggioSegreto";
-import AggiornaTitolo from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_07/AggiornaTitolo";
-import GalleriaFoto from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_08/GalleriaFoto";
-import ModuloContatti from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_09/ModuloContatti";
-import BlogApp from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_10/BlogApp";
-import CardUtente2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_02/Fatto_in_classe/CardUtente2";
-import MenuRistorante2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_03/Fatto_in_classe/MenuRistorante2";
-import Termostato2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_04/Fatto_in_classe/Termostato2";
-import Menu from "./Esercizi/Da_Zero_a_Piccola_App/Menu";
-import MainComponent from "./components/MainComponent";
+// import Messaggio from "./Esercizi/Esercizi_progressivi/Esercizio_01/Messaggio";
+// import Contatore from "./Esercizi/Esercizi_progressivi/Esercizio_02/Contatore";
+// import ListaUtenti from "./Esercizi/Esercizi_progressivi/Esercizio_03/ListaUtenti";
+// import FormInput from "./Esercizi/Esercizi_progressivi/Esercizio_04/FormInput";
+// import ListaDinamica from "./Esercizi/Esercizi_progressivi/Esercizio_05/ListaDinamica";
+// import Saluto from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_01/Saluto";
+// import CardUtente from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_02/CardUtente";
+// import MenuRistorante from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_03/MenuRistorante";
+// import Termostato from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_04/Termostato";
+// import CampoRicerca from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_05/CampoRicerca";
+// import MessaggioSegreto from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_06/MessaggioSegreto";
+// import AggiornaTitolo from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_07/AggiornaTitolo";
+// import GalleriaFoto from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_08/GalleriaFoto";
+// import ModuloContatti from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_09/ModuloContatti";
+// import BlogApp from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_10/BlogApp";
+// import CardUtente2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_02/Fatto_in_classe/CardUtente2";
+// import MenuRistorante2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_03/Fatto_in_classe/MenuRistorante2";
+// import Termostato2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_04/Fatto_in_classe/Termostato2";
+// import Menu from "./Esercizi/Da_Zero_a_Piccola_App/Menu";
+// import MainComponent from "./components/MainComponent";
+import ProvaRouterData from "./Esercizi/router/ProvaRouterData";
 
 function App() {
   // let nome = "Roberto";
@@ -240,7 +241,9 @@ function App() {
   // Render condizionale
   // return <Menu></Menu>
 
-  return <MainComponent></MainComponent>
+  // return <MainComponent></MainComponent>
+
+  return <ProvaRouterData></ProvaRouterData>;
 }
 
 export default App;
