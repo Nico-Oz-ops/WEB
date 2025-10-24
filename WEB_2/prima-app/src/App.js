@@ -1,4 +1,9 @@
 import "./App.css";
+// import Esercizio_01 from "./Esercizi/Esercizi_base_useState/Esercizio_01";
+// import Esercizio_01_v2 from "./Esercizi/Esercizi_base_useState/Esercizio_01_v2";
+import Esercizio_02 from "./Esercizi/Esercizi_base_useState/Esercizio_02";
+import Esercizio_03 from "./Esercizi/Esercizi_base_useState/Esercizio_03";
+import Esercizio_04 from "./Esercizi/Esercizi_base_useState/Esercizio_04";
 // import Clock from "./Clock";
 // import Componente1, { Anagrafica, Messaggio } from "./Componente1";
 // import Persona from "./Esercizi/esercizio1";
@@ -23,7 +28,7 @@ import "./App.css";
 // import Termostato2 from "./Esercizi/Da_Zero_a_Piccola_App/Esercizio_04/Fatto_in_classe/Termostato2";
 // import Menu from "./Esercizi/Da_Zero_a_Piccola_App/Menu";
 // import MainComponent from "./components/MainComponent";
-import ProvaRouterData from "./Esercizi/router/ProvaRouterData";
+// import ProvaRouterData from "./Esercizi/router/ProvaRouterData";
 
 function App() {
   // let nome = "Roberto";
@@ -243,7 +248,17 @@ function App() {
 
   // return <MainComponent></MainComponent>
 
-  return <ProvaRouterData></ProvaRouterData>;
+  // return <ProvaRouterData></ProvaRouterData>;
+
+  // return <Esercizio_01/>
+
+  // return <Esercizio_01_v2/>
+
+  // return <Esercizio_02/>
+
+  // return <Esercizio_03/>
+
+  return <Esercizio_04/>
 }
 
 export default App;
