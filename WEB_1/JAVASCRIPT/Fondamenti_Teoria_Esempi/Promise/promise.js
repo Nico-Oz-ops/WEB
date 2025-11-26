@@ -1,5 +1,6 @@
 // Introduzione alle promise
-/* Le Promise sono state introdotte per risolvere i problemi delle callback, rendendo il codice più leggibile e gestibile.
+/* Le Promise sono state introdotte per risolvere i problemi delle callback, 
+rendendo il codice più leggibile e gestibile.
 
 Una Promise rappresenta un'operazione che si completerà in futuro e può avere tre stati:
 A. Pending (in attesa): L'operazione non è ancora completata.

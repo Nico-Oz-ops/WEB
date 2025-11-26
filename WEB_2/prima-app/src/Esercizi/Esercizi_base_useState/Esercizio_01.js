@@ -14,10 +14,10 @@ Concetti: boolean state, conditional rendering
 import React, { useState } from "react";
 
 const Esercizio_01 = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false); // Inizializza lo stato "isVisible" a false (testo nascosto)
 
   const toggleVisibility = () => { 
-    setIsVisible(!isVisible); 
+    setIsVisible(!isVisible); // Inverte lo stato di "isVisible": se era true diventa false e viceversa
   };
   return (
     <div>
@@ -30,5 +30,11 @@ const Esercizio_01 = () => {
 };
 
 export default Esercizio_01;
+
+/* 
+Questo componente React crea un bottone che permette di mostrare o nascondere un testo.
+Quando clicchi sul bottone, il valore dello stato "isVisible" cambia da true a false o viceversa.
+Il testo viene mostrato solo quando "isVisible" è true, creando un effetto di toggle.
+*/
 
 

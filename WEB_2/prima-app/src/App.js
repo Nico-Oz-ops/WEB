@@ -4,6 +4,9 @@ import "./App.css";
 import Esercizio_02 from "./Esercizi/Esercizi_base_useState/Esercizio_02";
 import Esercizio_03 from "./Esercizi/Esercizi_base_useState/Esercizio_03";
 import Esercizio_04 from "./Esercizi/Esercizi_base_useState/Esercizio_04";
+import Contatore from "./Esercizi/Esercizi_progressivi/Esercizio_06/Contatore";
+import Esercizio_06 from "./Esercizi/Esercizi_progressivi/Esercizio_06/Contatore";
+import CambiaBackground from "./Esercizi/Esercizi_progressivi/Esercizio_07/CambiaBackground";
 // import Clock from "./Clock";
 // import Componente1, { Anagrafica, Messaggio } from "./Componente1";
 // import Persona from "./Esercizi/esercizio1";
@@ -258,7 +261,11 @@ function App() {
 
   // return <Esercizio_03/>
 
-  return <Esercizio_04/>
+  // return <Esercizio_04/>
+
+  // return <Contatore/>;
+  
+  return <CambiaBackground/>;
 }
 
 export default App;
