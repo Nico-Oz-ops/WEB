@@ -1,0 +1,33 @@
+<!-- 10. Validazione Lunghezza Testo 
+Richiesto: se il testo è più corto di una soglia, mostrare un messaggio di errore sotto l’input. 
+
+Usare: controllo lunghezza stringa, manipolazione visibilità del messaggio. 
+
+Risultato: indicazione chiara quando il testo non rispetta i requisiti -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 10 - Validazione</title>
+</head>
+
+<body>
+
+    <input type="text" id="campo" placeholder="Minimo 5 caratteri">
+    <p id="errore" style="color: red; display: none;">Il testo è troppo corto</p>
+
+    <script>
+        document.getElementById("campo").addEventListener("input", function () {
+            const testo = this.value;
+
+            if (testo.length < 5) {
+                document.getElementById("errore").style.display = "block";
+            } else {
+                document.getElementById("errore").style.display = "none";
+            }
+        });
+    </script>
+
+</body>
+</html>

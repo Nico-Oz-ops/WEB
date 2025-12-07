@@ -1,0 +1,61 @@
+<!-- 7. Modal di Avviso 
+Richiesto: un pulsante che apre un’area sovrapposta semi-trasparente con un messaggio e pulsante di chiusura. 
+
+Usare: overlay a schermo intero, proprietà display o classi per mostrare/nascondere. 
+
+Risultato: finestra di avviso centrata che copre la pagina.  -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 7 - Modal Avviso</title>
+
+    <style>
+        #overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .modal {
+            background: white;
+            padding: 20px;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button id="open">Apri Modal</button>
+
+    <div id="overlay" class="hidden">
+        <div class="modal">
+            <p>Questo è un messaggio di avviso!</p>
+            <button id="close">Chiudi</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("open").onclick = () => {
+            document.getElementById("overlay").classList.remove("hidden");
+        };
+
+        document.getElementById("close").onclick = () => {
+            document.getElementById("overlay").classList.add("hidden");
+        };
+    </script>
+
+</body>
+</html>

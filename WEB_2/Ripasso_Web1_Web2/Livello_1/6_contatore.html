@@ -1,0 +1,30 @@
+<!-- 6. Contatore 
+Richiesto: mostrare un numero in pagina che aumenta ad ogni clic di un pulsante. 
+
+Usare: gestione DOM, variabile JS, aggiornamento testo. 
+
+Risultato: numero aggiornato visivamente ad ogni clic.  -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 6 - Contatore</title>
+</head>
+
+<body>
+
+    <p>Contatore: <span id="numero">0</span></p>
+    <button id="btn">Aumenta</button>
+
+    <script>
+        let count = 0;
+
+        document.getElementById("btn").addEventListener("click", function() {
+            count++;
+            document.getElementById("numero").textContent = count;
+        });
+    </script>
+
+</body>
+</html>

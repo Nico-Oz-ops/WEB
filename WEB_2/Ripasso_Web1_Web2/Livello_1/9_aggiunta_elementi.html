@@ -1,0 +1,38 @@
+<!-- 9. Aggiunta Elementi Lista 
+Richiesto: campo di testo + pulsante; ad ogni invio aggiungere una voce alla lista. 
+
+Usare: createElement, append; input text per contenuto. 
+
+Risultato: lista che cresce dinamicamente.  -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio 9 - Aggiunta Elementi</title>
+</head>
+
+<body>
+
+    <input type="text" id="testo" placeholder="Aggiungi un elemento">
+    <button id="add">Aggiungi</button>
+
+    <ul id="lista"></ul>
+
+    <script>
+        document.getElementById("add").onclick = () => {
+            const valore = document.getElementById("testo").value.trim();
+
+            if (valore === "") return;
+
+            const li = document.createElement("li");
+            li.textContent = valore;
+
+            document.getElementById("lista").appendChild(li);
+
+            document.getElementById("testo").value = "";
+        };
+    </script>
+
+</body>
+</html>
